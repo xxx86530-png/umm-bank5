@@ -1,1 +1,3 @@
-export const metadata = { title: "UMM Bank", description: "언어와 매체 데모" }; export default function RootLayout({ children }: { children: React.ReactNode }) { return ( <body style={{ fontFamily: "sans-serif", margin: 0 }}>{children} ); }
+export const metadata = { title: "UMM Bank", description: "언어와 매체 데모" };
+
+export default function RootLayout({ children }: { children: React.ReactNode }) { return ( <body style={{ fontFamily: "sans-serif", margin: 0 }}> {children} ); }
